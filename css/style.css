@@ -1,0 +1,50 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url('../img/honey.jpg') no-repeat;
+	background-size: cover;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.app-container {
+	max-width: 450px;
+	width: 100%;
+	padding: 25px;
+	
+	background: rgba(255, 255, 255, 0.7);
+	box-shadow: 0 0 75px rgba(0,0,0,0.4);
+}
+
+.app-container h3 {
+	margin: 0 0 25px;
+	text-align: center;
+}
+
+/* New task */
+
+.new-task-container {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/* Task list */
+
+.tasks-container ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;text-align: center;	
+}
+
+.single-task {
+	margin-bottom: 12px;
+}
+
+
+
+
+
